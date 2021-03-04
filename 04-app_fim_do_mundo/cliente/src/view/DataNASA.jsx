@@ -40,7 +40,7 @@ const DataNASA = (props) => {
     if (validaData(novaData)) {
       props.onDataValida(novaData)
     } else {
-      props.onDataValida('2021-03-19')
+      props.onDataValida()
     }
   }
 
